@@ -2,9 +2,9 @@ body{
   max-width: 1200px;
   font-family: 'Indie Flower', 'cursive';
   margin: 0;
-  /* background: url('../imagens/bg.jpg'); */
+  background: url('../imagens/bd.jpeg');
   background-repeat: cover;
-  background-color:  black;
+  /* background-color:  black; */
 
 }
 
