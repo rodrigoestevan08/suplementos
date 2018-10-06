@@ -4,7 +4,7 @@ body{
   margin: 0;
   /* background: url('../imagens/bg.jpg'); */
   background-repeat: cover;
-  background-image: black;
+  background-color:  black;
 
 }
 
@@ -18,7 +18,7 @@ header{
   align-items: center;
   justify-content: space-around;
   height: 15vh;
-  background-color:red);
+  background-color:red;
 }
 
 header>div{
