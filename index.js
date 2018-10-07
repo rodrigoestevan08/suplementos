@@ -11,7 +11,7 @@ app.use(expressMongoDb('mongodb://rodrigo:r83789159@ds051853.mlab.com:51853/supl
 app.use(bodyParser.urlencoded());
 
 app.get('/', (req, res) => {
-    req.db.collection('produtos').find().toArray((erro, dados) => {
+    req.db.collection('produtos').unshift().toArray((erro, dados) => {
         res.render('home', {'produtos': dados});
     });
 });
